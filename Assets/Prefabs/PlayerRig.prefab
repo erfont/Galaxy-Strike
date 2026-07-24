@@ -115,11 +115,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   controlSpeed: 50
   rotationSpeed: 8
-  controlRollFactor: 45
+  controlRollFactor: 18
   XOffsetClampMin: -19
   XOffsetClampMax: 19
-  YOffsetClampMin: 3.54
-  YOffsetClampMax: 7
+  YOffsetClampMin: 2
+  YOffsetClampMax: 8.5
 --- !u!114 &8611365440220784593
 MonoBehaviour:
   m_ObjectHideFlags: 0

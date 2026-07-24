@@ -990,19 +990,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 132.1
+      value: 355.8299
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 133.5
+      value: 99.99998
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 56.8
+      value: 313.7935
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9699676
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1010,7 +1010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.24323411
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1022,23 +1022,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 28.155
       objectReference: {fileID: 0}
     - target: {fileID: 797834652576422844, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3297533080782301745, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
+      propertyPath: XOffsetClampMax
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297533080782301745, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
+      propertyPath: XOffsetClampMin
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297533080782301745, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: YOffsetClampMax
-      value: 8.5
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3297533080782301745, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: YOffsetClampMin
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3297533080782301745, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
-      propertyPath: controlRollFactor
-      value: 18
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6040662755390021781, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
       propertyPath: m_Name
@@ -1048,6 +1052,10 @@ PrefabInstance:
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 1971166336}
+    - target: {fileID: 8611365440220784593, guid: 8ec2f75f141102e4d97cbca1035f57e8, type: 3}
+      propertyPath: targetDistance
+      value: 250
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

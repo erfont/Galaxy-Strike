@@ -50,7 +50,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void ProcessRotation()
     {
-        Quaternion targetRotation = Quaternion.Euler(-controlRollFactor * movement.y, 0f, -controlRollFactor * movement.x);
+        // -controlRollFactor * movement.y // rotating on the X axis doesn't look much better
+        Quaternion targetRotation = Quaternion.Euler(0f, 0f, -controlRollFactor * movement.x);
 
         Quaternion lerpedRotation = Quaternion.Lerp(transform.localRotation, targetRotation, Time.deltaTime * rotationSpeed);
 

@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     {
         hitPoints--;
         
-        if (hitPoints <= 0)
+        if (hitPoints == 0)
         {
             scoreboard.IncreaseScore(scoreValue);
             Instantiate(destroyedVFX, transform.position, Quaternion.identity); // Quaternion identity is the default 1, 1, 1 rotation

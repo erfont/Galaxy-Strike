@@ -91,6 +91,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   destroyedVFX: {fileID: 1599291741287771863, guid: 22e3523287c549a4699fe0cf6967d9af, type: 3}
+  hitVFX: {fileID: 1335051265159173828, guid: de962d93c03f1634caeabb859b998f85, type: 3}
+  hitPoints: 4
 --- !u!1 &7989844166003079641
 GameObject:
   m_ObjectHideFlags: 0

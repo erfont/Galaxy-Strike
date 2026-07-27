@@ -545,30 +545,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Size.x
-      value: 15.975579
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Size.y
-      value: 5.1620417
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Size.z
-      value: 14.9353285
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Center.x
-      value: 0.13626623
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Center.y
-      value: 3.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 2277678515382733384, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
-      propertyPath: m_Center.z
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 2453143066843891908, guid: 51185599492b78947a42bc6f7d140a1c, type: 3}
       propertyPath: m_Name
       value: Enemy 1

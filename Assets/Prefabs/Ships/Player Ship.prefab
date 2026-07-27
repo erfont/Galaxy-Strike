@@ -76,10 +76,10 @@ MonoBehaviour:
   controlSpeed: 50
   rotationSpeed: 8
   controlRollFactor: 45
-  XOffsetClampMin: -22
-  XOffsetClampMax: 22
-  YOffsetClampMin: -8
-  YOffsetClampMax: 20
+  XOffsetClampMin: -29
+  XOffsetClampMax: 29
+  YOffsetClampMin: -10
+  YOffsetClampMax: 22
 --- !u!114 &7460036522559287048
 MonoBehaviour:
   m_ObjectHideFlags: 0

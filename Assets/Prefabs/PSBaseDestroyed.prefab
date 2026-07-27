@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6685346347988728831}
   - component: {fileID: 6151081206464178858}
   m_Layer: 0
-  m_Name: EnemyDestroyPS
+  m_Name: PSBaseDestroyed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

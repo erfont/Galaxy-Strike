@@ -1,14 +1,16 @@
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
+using TMPro;
 
 public class Scoreboard : MonoBehaviour
 {
     private int score;
 
+    [SerializeField] TMP_Text scoreBoardText;
+
     public void IncreaseScore(int amount)
     {
-        score += amount; 
-        Debug.Log(score);
+        score += amount;
+        scoreBoardText.text = score.ToString();
     }
 
 }
